@@ -1,3 +1,12 @@
+# Image 
+<img src="src/images/ecart.png">
+
+# dependencies used
+
+1)material-ui
+    2)commercejs
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
