@@ -12,10 +12,14 @@ const App = () =>
 
     setProducts(data);
   }
-   const fetchCart = async
+   const fetchCart = async () =>
+   {
+    setcart(await commerce.cart.retrieve());
+   }
   useEffect(() =>
   {
     fetchProduct();
+   
   },[]);
   
   return(
